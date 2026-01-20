@@ -2,6 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("honnagiri Content Generator", layout="wide")
+st.display("hi.png')
 st.title("📢 Honnagiri – Content Generator")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
